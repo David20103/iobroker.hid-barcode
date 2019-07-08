@@ -1,47 +1,74 @@
 {
-    "common": {
-        "name": "hid-barcode",
-        "version": "0.0.1",
-        "news": {
-            "0.0.1": {
-                "de": "Umbenannt"
-            },
-             },
-        "title": "HID-Barcode",
-        "desc": {
-            "en": "HID Input Devices",
-            "de": "HID Eingabegeraete",
-            "ru": "HID Input Devices"
-        },
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "mode": "daemon",
-        "icon": "hid.png",
-        "extIcon": "https://raw.githubusercontent.com/David20103/iobroker.hid-barcode/master/admin/hid.png",
-        "readme": "https://github.com/David20103/iobroker.hid-barcode/blob/master/README.md",
-        "loglevel": "info",
-        "messagebox": true,
-        "enabled": true,
-        "type": "utility",
-        "authors": [
-            {
-                "name": "fluen",
-                "email": "luennemann74@gmail.com"
-            }
-        ]
-    },
-    "native": {
-        "vendorID": "",
-        "productID": "",
-        "createUnknownStates": false,
-        "keyUpTimeout": 200
-    },
-    "mappings": {
-        "26017F2A55": "AllLightsOn-(AM)",
-        "26017F1867": "AllLightsOff-(Memory)",
-        "26857A21DE": "OK",
-        "26857A55AA": "ESC"
-    },
-    "instanceObjects": [],
-    "objects": []
+	"common": {
+		"name": "usbstream2",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "usbstream",
+		"titleLang": {
+			"en": "usbstream",
+			"de": "usbstream",
+			"ru": "usbstream",
+			"pt": "usbstream",
+			"nl": "usbstream",
+			"fr": "usbstream",
+			"it": "usbstream",
+			"es": "usbstream",
+			"pl": "usbstream",
+			"zh-cn": "usbstream"
+		},
+		"desc": {
+			"en": "usbstream",
+			"de": "usbstream",
+			"ru": "usbstream",
+			"pt": "usbstream",
+			"nl": "usbstream",
+			"fr": "usbstream",
+			"it": "usbstream",
+			"es": "usbstream",
+			"pl": "usbstream",
+			"zh-cn": "usbstream"
+		},
+		"authors": [
+			"fluen <luennemann74@gmail.com>"
+		],
+		"keywords": [
+			"rfid"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "usbstream2.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/David20103/ioBroker.usbstream2/master/admin/usbstream2.png",
+		"readme": "https://github.com/David20103/ioBroker.usbstream2/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "logic",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
 }
