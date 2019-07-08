@@ -1,7 +1,7 @@
 ﻿"use strict";
 
-var utils = require(__dirname + '/lib/utils'),
-    HID = require('usb-barcode-scanner');
+var utils = require(__dirname + '/lib/utils');
+var HID = require('usb-barcode-scanner');
 
 var hidDevice = null;
 
@@ -56,7 +56,7 @@ function createAll(callback) {
 
 
 function main() {
-
+/*
     normalizeConfig(adapter.config);
     mappings = adapter.ioPack.mappings;
     if (!adapter.config.vendorID || !adapter.config.productID) {
@@ -85,7 +85,8 @@ function main() {
     hidDevice.on("error", function (err) {
         console.log("err: " + err);
     });
-    //adapter.subscribeStates('*');
+*/  
+  //adapter.subscribeStates('*');
 }
 
 //--msvs_version=2015
