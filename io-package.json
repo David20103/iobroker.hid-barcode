@@ -1,26 +1,14 @@
 {
     "common": {
-        "name": "hid-community",
-        "version": "0.1.17",
+        "name": "hid-barcode",
+        "version": "0.0.1",
         "news": {
-            "0.1.17": {
-                "en": "update readme.md (Bluefox)",
-                "de": "readme.md erweitert (Bluefox)"
+            "0.0.1": {
+                "de": "Umbenannt"
             },
-            "0.1.16": {
-                "en": "update basic package-file testing (Apollon77)",
-                "de": "Erweiterung der Tests (Apollon77)"
-            },
-            "0.1.15": {
-                "en": "node 0.12 removed from testing",
-                "de": "node 0.12 auf testing entfernt"
-            },
-            "0.1.14": {
-                "en": "Enhance CI testing",
-                "de": "CI testing erweitert"
             }
         },
-        "title": "HID",
+        "title": "HID-Barcode",
         "desc": {
             "en": "HID Input Devices",
             "de": "HID Eingabegeraete",
@@ -30,16 +18,16 @@
         "platform": "Javascript/Node.js",
         "mode": "daemon",
         "icon": "hid.png",
-        "extIcon": "https://raw.githubusercontent.com/soef/iobroker.hid/master/admin/hid.png",
-        "readme": "https://github.com/soef/iobroker.hid/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/David20103/iobroker.hid-barcode/master/admin/hid.png",
+        "readme": "https://github.com/David20103/iobroker.hid-barcode/blob/master/README.md",
         "loglevel": "info",
         "messagebox": true,
         "enabled": true,
         "type": "utility",
         "authors": [
             {
-                "name": "soef",
-                "email": "soef@gmx.net"
+                "name": "fluen",
+                "email": "luennemann74@gmail.com"
             }
         ]
     },
