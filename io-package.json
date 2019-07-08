@@ -1,45 +1,18 @@
 {
 	"common": {
-		"name": "usbstream2",
+		"name": "hid-barcode",
 		"version": "0.0.1",
 		"news": {
 			"0.0.1": {
-				"en": "initial release",
-				"de": "Erstveröffentlichung",
-				"ru": "Начальная версия",
-				"pt": "lançamento inicial",
-				"nl": "Eerste uitgave",
-				"fr": "Première version",
-				"it": "Versione iniziale",
-				"es": "Versión inicial",
-				"pl": "Pierwsze wydanie",
-				"zh-cn": "首次出版"
+				"de": "Erstveröffentlichung"
 			}
 		},
-		"title": "usbstream",
+		"title": "Hid-Barcode",
 		"titleLang": {
-			"en": "usbstream",
-			"de": "usbstream",
-			"ru": "usbstream",
-			"pt": "usbstream",
-			"nl": "usbstream",
-			"fr": "usbstream",
-			"it": "usbstream",
-			"es": "usbstream",
-			"pl": "usbstream",
-			"zh-cn": "usbstream"
+			"de": "usbstream"
 		},
 		"desc": {
-			"en": "usbstream",
-			"de": "usbstream",
-			"ru": "usbstream",
-			"pt": "usbstream",
-			"nl": "usbstream",
-			"fr": "usbstream",
-			"it": "usbstream",
-			"es": "usbstream",
-			"pl": "usbstream",
-			"zh-cn": "usbstream"
+			"de": "usbstream"
 		},
 		"authors": [
 			"fluen <luennemann74@gmail.com>"
@@ -50,10 +23,10 @@
 		"license": "MIT",
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
-		"icon": "usbstream2.png",
+		"icon": "hid.png",
 		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/David20103/ioBroker.usbstream2/master/admin/usbstream2.png",
-		"readme": "https://github.com/David20103/ioBroker.usbstream2/blob/master/README.md",
+		"extIcon": "https://raw.githubusercontent.com/David20103/iobroker.hid-barcode/master/admin/hid.png",
+		"readme": "https://github.com/David20103/ioBroker.hid-barcode/blob/master/README.md",
 		"loglevel": "info",
 		"mode": "daemon",
 		"type": "logic",
