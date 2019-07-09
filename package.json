@@ -1,18 +1,18 @@
 {
-  "name": "iobroker.hid-community",
-  "version": "0.1.17",
+  "name": "iobroker.hid-barcode",
+  "version": "0.0.1",
   "description": "HID Adapter",
   "author": {
-    "name": "soef",
-    "email": "soef@gmx.net"
+    "name": "luen",
+    "email": "luennemann74@gmail.com"
   },
   "contributors": [
     {
-      "name": "soef",
-      "email": "soef@gmx.net"
+      "name": "fluen",
+      "email": "luennemann74@gmail.com"
     }
   ],
-  "homepage": "https://github.com/soef/iobroker.hid",
+  "homepage": "https://github.com/david20103/iobroker.hid-barcode",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -21,10 +21,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/soef/iobroker.hid"
+    "url": "https://github.com/David20103/iobroker.hid-barcode"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3",
+    "@isirthijs/barcode-scanner": "^1.1.0",
     "node-hid": "^0.7.8",
     "rimraf": "^2.4.3",
     "soef": "^0.1.4",
@@ -40,7 +41,7 @@
     "chai": "^4.1.2"
   },
   "bugs": {
-    "url": "https://github.com/soef/iobroker.hid/issues"
+    "url": "https://github.com/David20103/iobroker.hid-barcode/issues"
   },
   "readmeFilename": "README.md",
   "main": "main.js",
