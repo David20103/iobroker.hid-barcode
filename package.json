@@ -26,7 +26,9 @@
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3",
     "@isirthijs/barcode-scanner": "^1.1.0",
+    "mssql": "^5.1.0",
     "node-hid": "^0.7.8",
+    "os": "^0.1.1",
     "rimraf": "^2.4.3",
     "soef": "^0.1.4",
     "usb-barcode-scanner": "^1.0.2"
